@@ -1,5 +1,7 @@
 # Lab: Broken Hooks
 
+<img src="./public/main.png" width=600/>
+
 ## Introduction
 
 Again, we have issues with previous code made by other developers and AI. It is supposed to fetch a list of users from the public JSONPlaceholder API, show them as a list of cards, let you mark any user as a favorite, and let you click a card to open that user's posts on the side.
@@ -60,7 +62,6 @@ Work like a detective, not like someone copying an answer.
 3. Find the exact lines responsible. The whole app lives in `app/page.js`, `app/components/`, and `app/lib/`. Read every file slowly.
 4. Make the smallest change that fixes the behavior, then confirm it in the browser.
 5. Repeat for the second problem.
-
 
 ## Checklist before you call it done
 
